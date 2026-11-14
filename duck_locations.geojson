@@ -1,0 +1,599 @@
+{
+  "type": "FeatureCollection",
+  "name": "CODG136 Assignment 2 Duck-Viewing Sites",
+  "metadata": {
+    "description": "A course-scale inventory of publicly accessible aquatic and wetland sites in Toronto and Mississauga that offer defensible settings for duck and waterfowl viewing.",
+    "site_count": 25,
+    "municipalities": [
+      "Toronto",
+      "Mississauga"
+    ],
+    "habitat_classes": [
+      "Pond",
+      "Wetland",
+      "Lake shoreline",
+      "River/creek",
+      "Lagoon/embayment"
+    ],
+    "last_verified": "2026-11-13",
+    "assignment_deadline": "2026-11-15",
+    "coordinate_reference_system": "WGS 84 (longitude, latitude; EPSG:4326)",
+    "coordinate_note": "Coordinates are representative map points for each named public site, habitat feature or practical viewing area. They are suitable for a regional Leaflet assignment, but are not survey-grade. Coordinates were cross-checked against OpenStreetMap/Nominatim place records and official site maps where available.",
+    "selection_note": "Sites were selected from official municipal, conservation-authority and park-operator descriptions of public access, birding, waterfowl, wetlands or aquatic habitat. A site is not a promise that ducks will be present on a particular visit.",
+    "responsible_viewing_note": "Stay on signed paths and viewing platforms, obey closures, keep dogs leashed where required, do not feed wildlife and do not approach nests or restricted habitat.",
+    "geojson_use": "Load this file with fetch(), parse it as JSON, and pass the resulting FeatureCollection to L.geoJSON()."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TOR-01",
+        "name": "Grenadier Pond – High Park",
+        "municipality": "Toronto",
+        "habitat": "Pond",
+        "waterbody": "Grenadier Pond",
+        "access": "Public City park; shoreline paths and designated pond-edge areas are accessible from High Park entrances. Follow current park and vehicle-access signs.",
+        "description": "A large naturalized pond and lakeside-marsh remnant within High Park, with public shoreline viewpoints and established bird habitat.",
+        "selection_basis": "City sources describe Grenadier Pond as environmentally significant wildlife habitat and High Park as supporting Wood Duck and diverse migrant and breeding birds.",
+        "evidence_level": "Direct bird/waterfowl evidence",
+        "original_assignment_1": true,
+        "source_urls": [
+          "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/beaches-gardens-attractions/high-park/",
+          "https://www.toronto.ca/wp-content/uploads/2020/05/8ea3-City-Planning-Birds-of-Toronto-Biodiversity-Series.pdf"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.4684177, 43.6434056]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TOR-02",
+        "name": "Humber Bay Park East",
+        "municipality": "Toronto",
+        "habitat": "Lagoon/embayment",
+        "waterbody": "Lake Ontario and Humber Bay Park East pond/wetland",
+        "access": "Public waterfront park with paths and boardwalks; the park reopened in July 2026, though finishing work may affect small areas.",
+        "description": "A Lake Ontario peninsula with sheltered water, a revitalized pond and linear wetland, and multiple public shoreline viewpoints.",
+        "selection_basis": "City planning documents identify Humber Bay Park as a major Toronto location for observing overwintering waterfowl and describe wetland and pond habitat in the east park.",
+        "evidence_level": "Direct waterfowl evidence",
+        "original_assignment_1": true,
+        "source_urls": [
+          "https://www.toronto.ca/city-government/planning-development/construction-new-facilities/parks-facility-plans-strategies/humber-bay-parks-master-plan/",
+          "https://www.toronto.ca/wp-content/uploads/2020/05/8ea3-City-Planning-Birds-of-Toronto-Biodiversity-Series.pdf"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.4759093, 43.6220493]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TOR-03",
+        "name": "Colonel Samuel Smith Park",
+        "municipality": "Toronto",
+        "habitat": "Lagoon/embayment",
+        "waterbody": "Lake Ontario bays and marina embayment",
+        "access": "Public City park with a network of waterfront paths; observe wildlife from paths and open shoreline viewpoints.",
+        "description": "A lakefill waterfront park combining bays, marshes, meadows and open Lake Ontario shoreline.",
+        "selection_basis": "The City identifies the park as a premier birding destination and specifically notes winter waterfowl associated with its bays, marshes and marina area.",
+        "evidence_level": "Direct waterfowl evidence",
+        "original_assignment_1": true,
+        "source_urls": [
+          "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/trails/",
+          "https://www.toronto.ca/wp-content/uploads/2020/05/8ea3-City-Planning-Birds-of-Toronto-Biodiversity-Series.pdf"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.5140841, 43.5930315]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TOR-04",
+        "name": "Toronto Islands – Snug Harbour",
+        "municipality": "Toronto",
+        "habitat": "Lagoon/embayment",
+        "waterbody": "Toronto Islands lagoons and Snug Harbour",
+        "access": "Public island park reached by ferry or water taxi; use signed multi-use paths and bridges. Ferry service and facilities vary by season.",
+        "description": "A sheltered harbour and lagoon setting within the Toronto Islands, surrounded by public paths and linked island habitats.",
+        "selection_basis": "The City lists Snug Harbour among key Toronto Islands bird-watching areas and describes the island lagoon network and year-round trails.",
+        "evidence_level": "Birding plus aquatic habitat",
+        "original_assignment_1": true,
+        "source_urls": [
+          "https://www.toronto.ca/explore-enjoy/toronto-island-ferries/things-to-do-on-toronto-island/",
+          "https://www.toronto.ca/wp-content/uploads/2020/05/8ea3-City-Planning-Birds-of-Toronto-Biodiversity-Series.pdf"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.3664311, 43.624024]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TOR-05",
+        "name": "Tommy Thompson Park",
+        "municipality": "Toronto",
+        "habitat": "Wetland",
+        "waterbody": "Triangle Pond, Cell One wetlands and Lake Ontario embayments",
+        "access": "Public access is managed by TRCA: weekdays 4 p.m.–9 p.m.; weekends and holidays 5:30 a.m.–9 p.m. Check current notices and respect restricted nesting areas.",
+        "description": "A large waterfront habitat complex with coastal marshes, created wetlands, ponds, embayments and designated viewing areas.",
+        "selection_basis": "TRCA explicitly identifies Triangle Pond, wetland cells and embayments as waterfowl-viewing locations and documents functional waterfowl habitat.",
+        "evidence_level": "Direct waterfowl evidence",
+        "original_assignment_1": true,
+        "source_urls": [
+          "https://tommythompsonpark.ca/resources/",
+          "https://tommythompsonpark.ca/other-restoration-projects/"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.3242612, 43.6324831]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TOR-06",
+        "name": "Centennial Park Pond",
+        "municipality": "Toronto",
+        "habitat": "Pond",
+        "waterbody": "Centennial Park ponds and Elmcrest Creek wetlands",
+        "access": "Public City park; use park paths and pond lookouts. Naturalization and construction work may restrict small areas, so follow posted signs.",
+        "description": "An urban park pond-and-creek system with newly naturalized shorelines, pocket wetlands and adjacent open habitat.",
+        "selection_basis": "The City documents ponds, wetlands and wetland birds in the park; selection is habitat-based and does not imply reliable duck abundance.",
+        "evidence_level": "Wetland-bird habitat evidence",
+        "original_assignment_1": true,
+        "source_urls": [
+          "https://www.toronto.ca/city-government/planning-development/construction-new-facilities/parks-facility-plans-strategies/centennial-park-master-plan/",
+          "https://www.toronto.ca/legdocs/mmis/2021/ie/bgrd/backgroundfile-172158.pdf"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.5888689, 43.6535905]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TOR-07",
+        "name": "Ashbridges Bay Park",
+        "municipality": "Toronto",
+        "habitat": "Lagoon/embayment",
+        "waterbody": "Ashbridges Bay and Coatsworth Cut",
+        "access": "Public waterfront park with trails, seating and shoreline viewpoints; stay outside marina and work areas.",
+        "description": "A partly sheltered Lake Ontario bay with park paths, vegetated shoreline edges and nearby aquatic habitat improvements.",
+        "selection_basis": "TRCA environmental assessment material identifies the bay as potential habitat used by migrating waterfowl and notes that softer shoreline edges offer better wildlife cover than hardened shorelines.",
+        "evidence_level": "Waterfowl habitat evidence",
+        "original_assignment_1": false,
+        "source_urls": [
+          "https://trca.ca/conservation/watershed-management/lake-ontario-waterfront/features/",
+          "https://trca.ca/app/uploads/2019/03/Ashbridges-Bay-Environmental-Study-Report.pdf"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.3079368, 43.6584302]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TOR-08",
+        "name": "Bluffer's Park",
+        "municipality": "Toronto",
+        "habitat": "Lake shoreline",
+        "waterbody": "Lake Ontario and Bluffer's Park marina basin",
+        "access": "Public waterfront park with trails, lookouts and shoreline areas; some marina docks are private or seasonally controlled.",
+        "description": "A Scarborough waterfront park with open lake shoreline, beach, sheltered marina water and public nature-viewing areas.",
+        "selection_basis": "TRCA identifies bird watching and nature appreciation as park activities; inclusion is based on accessible shoreline and sheltered water rather than a claim of dependable duck sightings.",
+        "evidence_level": "Birding plus aquatic habitat",
+        "original_assignment_1": false,
+        "source_urls": [
+          "https://trca.ca/conservation/watershed-management/lake-ontario-waterfront/features/"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.2394322, 43.7080632]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TOR-09",
+        "name": "Corktown Common Wetland",
+        "municipality": "Toronto",
+        "habitat": "Wetland",
+        "waterbody": "Corktown Common constructed wetland and ponds",
+        "access": "Public City park with paved paths and bridges beside the wetland; remain on paths and planted-area edges.",
+        "description": "A naturalized constructed wetland and pond system embedded in a downtown flood-protection park.",
+        "selection_basis": "City planning material documents interconnected naturalized ponds, aquatic vegetation and pedestrian access; duck-viewing potential is a habitat inference, not a reported count.",
+        "evidence_level": "Aquatic habitat inference",
+        "original_assignment_1": false,
+        "source_urls": [
+          "https://www.toronto.ca/legdocs/mmis/2016/te/bgrd/backgroundfile-92734.pdf"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.3524656, 43.6540545]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TOR-10",
+        "name": "Don Valley Brick Works Park",
+        "municipality": "Toronto",
+        "habitat": "Pond",
+        "waterbody": "Evergreen Ponds and Mud Creek",
+        "access": "Public park trails and pond boardwalks behind Evergreen Brick Works; larger organized groups may require a City permit.",
+        "description": "A restored former quarry with connected ponds, wetland vegetation, boardwalks and public birding opportunities.",
+        "selection_basis": "Evergreen's birding guidance names Wood Duck among birds to look for around the Brick Works wetlands, while City material identifies wetland habitat at the site.",
+        "evidence_level": "Direct duck/birding evidence",
+        "original_assignment_1": false,
+        "source_urls": [
+          "https://www.evergreen.ca/stories/birding-101-a-guide-for-beginners/",
+          "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/trails/"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.3655581, 43.6849127]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TOR-11",
+        "name": "James Gardens and Lambton Woods",
+        "municipality": "Toronto",
+        "habitat": "River/creek",
+        "waterbody": "Humber River and spring-fed park ponds",
+        "access": "Public City park with riverside trail connections, garden paths and a scenic Humber Valley lookout.",
+        "description": "A Humber River valley park with spring-fed pools, streams, mature riparian habitat and connections into Lambton Woods.",
+        "selection_basis": "The City's bird guide identifies the broader Lambton Woods/James Gardens area as breeding habitat used by Wood Duck in the past.",
+        "evidence_level": "Direct duck/birding evidence",
+        "original_assignment_1": false,
+        "source_urls": [
+          "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3&title=James-Gardens",
+          "https://www.toronto.ca/wp-content/uploads/2020/05/8ea3-City-Planning-Birds-of-Toronto-Biodiversity-Series.pdf"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.5144952, 43.6718999]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TOR-12",
+        "name": "Port Union Waterfront Park",
+        "municipality": "Toronto",
+        "habitat": "Lake shoreline",
+        "waterbody": "Lake Ontario between Highland Creek and the Rouge River",
+        "access": "Public waterfront trail and lookouts. In November 2026 the eastern cobble shoreline is fenced for repair, with a signed trail detour; most of the park remains open.",
+        "description": "A long public Lake Ontario shoreline park with headlands, cobble shore, creek-mouth connections and created aquatic habitat.",
+        "selection_basis": "TRCA documents additional aquatic habitat, public lookouts and a shoreline wildlife corridor; duck-viewing potential is habitat-based rather than a reported observation claim.",
+        "evidence_level": "Aquatic habitat inference",
+        "original_assignment_1": false,
+        "source_urls": [
+          "https://trca.ca/conservation/watershed-management/lake-ontario-waterfront/features/",
+          "https://trca.ca/conservation/erosion-risk-management/restore/port-union-waterfront-park-major-maintenance/"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.1348291, 43.7750258]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIS-01",
+        "name": "Kariya Park",
+        "municipality": "Mississauga",
+        "habitat": "Pond",
+        "waterbody": "Kariya Park duck pond and ornamental marsh",
+        "access": "Public City park, generally open daily 7 a.m.–11 p.m.; use the boardwalks and paths around the water features.",
+        "description": "A compact Japanese-inspired urban park with a named duck pond, ornamental marsh, boardwalk and waterfall.",
+        "selection_basis": "The City documents a duck pond and marsh as public park features; the name describes the feature and is not evidence of guaranteed duck presence.",
+        "evidence_level": "Named aquatic feature; habitat inference",
+        "original_assignment_1": true,
+        "source_urls": [
+          "https://www.mississauga.ca/city-of-mississauga-news/news/pretty-in-pink-view-mississaugas-cherry-blossoms-at-kariya-park-in-coming-weeks/"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.636305, 43.5896856]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIS-02",
+        "name": "Rattray Marsh Conservation Area",
+        "municipality": "Mississauga",
+        "habitat": "Wetland",
+        "waterbody": "Rattray Marsh, Sheridan Creek and Lake Ontario",
+        "access": "Free public access from after sunrise to before sunset; parking is at Jack Darling Memorial Park. Stay on trails and boardwalks.",
+        "description": "A natural lakefront marsh with boardwalks, forest trails, mudflats and a rocky Lake Ontario shoreline.",
+        "selection_basis": "Credit Valley Conservation explicitly identifies ducks and other waterfowl in the marsh and along the shoreline and promotes the site for birdwatching.",
+        "evidence_level": "Direct duck/waterfowl evidence",
+        "original_assignment_1": false,
+        "source_urls": [
+          "https://cvc.ca/discover-our-parks/rattray-marsh/",
+          "https://cvc.ca/explore-activities/birding/"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.6086434, 43.5172063]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIS-03",
+        "name": "Jim Tovey Lakeview Conservation Area",
+        "municipality": "Mississauga",
+        "habitat": "Wetland",
+        "waterbody": "Serson Wetland, Applewood Wetland and Lake Ontario",
+        "access": "Public trails and lookouts; enter from Marie Curtis Park. There is no on-site visitor parking, and sensitive restoration areas may close periodically.",
+        "description": "A restored waterfront conservation area with coastal wetlands, creeks, boardwalks and accessible birdwatching lookouts.",
+        "selection_basis": "Credit Valley Conservation describes coastal wetlands and birdwatching, including mallards as a species visitors may encounter; this does not guarantee a sighting.",
+        "evidence_level": "Direct duck/waterfowl evidence",
+        "original_assignment_1": false,
+        "source_urls": [
+          "https://cvc.ca/discover-our-parks/jim-tovey-lakeview-conservation-area/",
+          "https://cvc.ca/explore-activities/birding/"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.5421272, 43.5758761]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIS-04",
+        "name": "Lake Wabukayne",
+        "municipality": "Mississauga",
+        "habitat": "Pond",
+        "waterbody": "Lake Wabukayne stormwater pond",
+        "access": "Public City park, open daily from dawn until 11 p.m.; a walking trail circles the pond and connects to Lake Aquitaine.",
+        "description": "A 1.8-hectare stormwater-management pond with a floating island, surrounding trail and naturalized park habitat.",
+        "selection_basis": "The City promotes nature and bird watching at the pond and separately notes that waterfowl are common near lakes and ponds in Mississauga parks.",
+        "evidence_level": "Birding plus aquatic habitat",
+        "original_assignment_1": false,
+        "source_urls": [
+          "https://www.mississauga.ca/events-and-attractions/parks/lake-wabukayne/",
+          "https://www.mississauga.ca/services-and-programs/animals-and-pets/wildlife-in-mississauga/wild-birds/"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.739174, 43.5801269]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIS-05",
+        "name": "Lake Aquitaine Park",
+        "municipality": "Mississauga",
+        "habitat": "Pond",
+        "waterbody": "Lake Aquitaine stormwater pond",
+        "access": "Public City park, open daily from dawn until 11 p.m.; trails and a fishing dock provide water views.",
+        "description": "A man-made stormwater pond surrounded by public trails and park facilities in Meadowvale.",
+        "selection_basis": "The City identifies Lake Aquitaine as one of Mississauga's waterfront and pond settings associated with returning waterfowl; no abundance is asserted here.",
+        "evidence_level": "Direct waterfowl context",
+        "original_assignment_1": false,
+        "source_urls": [
+          "https://www.mississauga.ca/events-and-attractions/parks/lake-aquitaine-park/",
+          "https://www.mississauga.ca/city-of-mississauga-news/news/when-geese-season-returns-expect-more-honks-and-hisses/"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.7525661, 43.5872619]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIS-06",
+        "name": "Osprey Marsh",
+        "municipality": "Mississauga",
+        "habitat": "Wetland",
+        "waterbody": "Osprey Marsh",
+        "access": "Public City park, open daily from dawn until 11 p.m.; the paved loop connects with Lisgar Meadow Brook and Britannia trails.",
+        "description": "An accessible urban marsh with a paved loop, benches and nesting boxes beside wetland habitat.",
+        "selection_basis": "The City promotes Osprey Marsh for bird watching and wildlife viewing and identifies it among Mississauga migration-viewing locations.",
+        "evidence_level": "Birding plus wetland habitat",
+        "original_assignment_1": false,
+        "source_urls": [
+          "https://www.mississauga.ca/events-and-attractions/parks/osprey-marsh/",
+          "https://web.mississauga.ca/city-of-mississauga-news/news/looking-for-a-gem-of-a-ride-check-out-these-cycling-trails/"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.7609076, 43.560003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIS-07",
+        "name": "Saigon Park",
+        "municipality": "Mississauga",
+        "habitat": "Pond",
+        "waterbody": "Saigon Park stormwater pond",
+        "access": "Public City park, open daily from dawn until 11 p.m.; a one-kilometre trail and pier provide pond viewpoints.",
+        "description": "A large stormwater pond with naturalized plantings, public trails, lookout points and a viewing pier.",
+        "selection_basis": "The City lists Saigon Park among migration-viewing locations and among stormwater ponds associated with returning waterfowl.",
+        "evidence_level": "Direct waterfowl context",
+        "original_assignment_1": false,
+        "source_urls": [
+          "https://www.mississauga.ca/events-and-attractions/parks/saigon-park/",
+          "https://www.mississauga.ca/city-of-mississauga-news/news/when-geese-season-returns-expect-more-honks-and-hisses/"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.6795254, 43.6177189]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIS-08",
+        "name": "Lakefront Promenade Park",
+        "municipality": "Mississauga",
+        "habitat": "Lagoon/embayment",
+        "waterbody": "Lake Ontario and Lakefront Promenade marina basin",
+        "access": "Public City park, open daily from dawn until 11 p.m.; use the waterfront pathway, beach and public shoreline areas.",
+        "description": "A Lake Ontario waterfront park with exposed shoreline, sheltered marina water and a continuous public pathway.",
+        "selection_basis": "The City identifies Lakefront Promenade as a migration-viewing location and as a waterfront setting associated with returning waterfowl.",
+        "evidence_level": "Direct waterfowl context",
+        "original_assignment_1": false,
+        "source_urls": [
+          "https://www.mississauga.ca/events-and-attractions/parks/lakefront-promenade/",
+          "https://www.mississauga.ca/city-of-mississauga-news/news/when-geese-season-returns-expect-more-honks-and-hisses/"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.5589217, 43.5672053]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIS-09",
+        "name": "Jack Darling Memorial Park",
+        "municipality": "Mississauga",
+        "habitat": "Lake shoreline",
+        "waterbody": "Lake Ontario shoreline beside Rattray Marsh",
+        "access": "Public City park, open daily from dawn until 11 p.m.; waterfront paths connect directly to Rattray Marsh boardwalk trails.",
+        "description": "A public Lake Ontario shoreline park next to Rattray Marsh, with beach, waterfront trail and natural areas.",
+        "selection_basis": "The City promotes the Jack Darling–Rattray area for birdwatching and identifies Jack Darling among waterfront locations associated with returning waterfowl.",
+        "evidence_level": "Direct waterfowl context",
+        "original_assignment_1": false,
+        "source_urls": [
+          "https://www.mississauga.ca/events-and-attractions/parks/jack-darling-memorial-park/",
+          "https://www.mississauga.ca/city-of-mississauga-news/news/when-geese-season-returns-expect-more-honks-and-hisses/"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.6045342, 43.5257765]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIS-10",
+        "name": "Riverwood",
+        "municipality": "Mississauga",
+        "habitat": "River/creek",
+        "waterbody": "Credit River, wetlands and park creeks",
+        "access": "Public City park, open daily from dawn until 11 p.m.; accessible trails and garden overlooks provide wetland and river views.",
+        "description": "A large urban nature park containing Credit River frontage, wetlands, creeks, ravines, meadows and mature forest.",
+        "selection_basis": "The City documents extensive bird diversity, wetlands and the Credit River at Riverwood and identifies the park as a migration-viewing location.",
+        "evidence_level": "Birding plus aquatic habitat",
+        "original_assignment_1": false,
+        "source_urls": [
+          "https://www.mississauga.ca/events-and-attractions/parks/riverwood/",
+          "https://www.mississauga.ca/city-of-mississauga-news/news/birds-of-a-feather-migrate-together-2/"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.6764792, 43.5630716]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIS-11",
+        "name": "Meadowvale Conservation Area",
+        "municipality": "Mississauga",
+        "habitat": "River/creek",
+        "waterbody": "Credit River and associated wetland complex",
+        "access": "Public City-managed conservation park, open daily from dawn until 11 p.m.; use trails, riverbanks and the pedestrian bridge.",
+        "description": "A broad Credit River valley conservation area with river flats, wetland complex, trails and public bridge viewpoints.",
+        "selection_basis": "City sources identify Meadowvale Conservation Area for bird migration viewing and document a public river-valley wetland complex.",
+        "evidence_level": "Birding plus aquatic habitat",
+        "original_assignment_1": false,
+        "source_urls": [
+          "https://www.mississauga.ca/events-and-attractions/parks/meadowvale-conservation-area/",
+          "https://www6.mississauga.ca/onlinemaps/planbldg/nas/Site_maps/CRR1.pdf"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.7332853, 43.6258871]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIS-12",
+        "name": "Erindale Park",
+        "municipality": "Mississauga",
+        "habitat": "River/creek",
+        "waterbody": "Credit River",
+        "access": "Public City park, open daily from dawn until 11 p.m.; extensive trails provide river and ravine views.",
+        "description": "Mississauga's largest park, with public trails following the Credit River through ravine and riparian habitat.",
+        "selection_basis": "The City explicitly promotes the park for bird and nature watching beside the Credit River; inclusion does not assert duck abundance.",
+        "evidence_level": "Birding plus aquatic habitat",
+        "original_assignment_1": false,
+        "source_urls": [
+          "https://www.mississauga.ca/events-and-attractions/parks/erindale-park/"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.6543917, 43.5477877]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIS-13",
+        "name": "Creditview Wetland",
+        "municipality": "Mississauga",
+        "habitat": "Wetland",
+        "waterbody": "Creditview Wetland",
+        "access": "Public trail access from Fallingbrook Drive, reached from the Eglinton Avenue Trail or Bristol Road bike lanes; view from the wooden platform and remain on paths.",
+        "description": "A compact provincially significant urban wetland with a public viewing platform and rare marsh vegetation.",
+        "selection_basis": "The City explicitly describes the viewing platform as a place to view nesting waterfowl and documents the wetland's ecological significance.",
+        "evidence_level": "Direct waterfowl evidence",
+        "original_assignment_1": false,
+        "source_urls": [
+          "https://web.mississauga.ca/city-of-mississauga-news/news/looking-for-a-gem-of-a-ride-check-out-these-cycling-trails/",
+          "https://www.mississauga.ca/wp-content/uploads/2022/02/25094315/Conserving-Heritage-Landscapes-Volume-2.pdf"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.6874571, 43.5851175]
+      }
+    }
+  ]
+}
